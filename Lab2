@@ -1,0 +1,11 @@
+b = -8
+while b <= -4:
+    a = 1
+    while a <= 3:
+        if a**2 + b > 3:
+            y = a + b
+        else:
+            y = 2 * a - b
+        print("y =", y)
+        a += 1
+    b += 0.5
